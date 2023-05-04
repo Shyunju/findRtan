@@ -9,6 +9,12 @@ public class gameManager : MonoBehaviour
     public Text timeTxt;
     float time;
     public GameObject card;
+    public static gameManager I;
+
+    private void Awake()
+    {
+        I = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
