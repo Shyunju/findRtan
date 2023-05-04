@@ -7,6 +7,7 @@ using System.Linq;
 public class gameManager : MonoBehaviour
 {
     public Text timeTxt;
+    public GameObject endTxt;
     float time;
     public GameObject card;
     public static gameManager I;
@@ -20,6 +21,7 @@ public class gameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         int[] rtans = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7 };
         rtans = rtans.OrderBy(item => Random.Range(-1.0f, 1.0f)).ToArray();  //리스트 정렬을 랜덤한 순서로 정렬
 
@@ -44,6 +46,12 @@ public class gameManager : MonoBehaviour
     {
         time += Time.deltaTime;
         timeTxt.text = time.ToString("N2");
+
+        if(time > 30f)
+        {
+            endTxt.SetActive(true);
+            Time.timeScale = 0.0f;
+        }
     }
 
     public void isMatched() //카드 매칭을 판단하는 함수
@@ -55,6 +63,14 @@ public class gameManager : MonoBehaviour
         {
             firstCard.GetComponent<card>().destroyCard();
             secondCard.GetComponent<card>().destroyCard();
+
+            
+            int cardsLeft = GameObject.Find("cards").transform.childCount;
+            if (cardsLeft == 2)
+            {
+                endTxt.SetActive(true);
+                Time.timeScale = 0.0f;
+            }
         }
         else
         {
@@ -63,5 +79,11 @@ public class gameManager : MonoBehaviour
         }
         firstCard = null;
         secondCard = null;
+    }
+
+    void GameEnd()
+    {
+        Time.timeScale = 0f;
+        endTxt.SetActive(true);
     }
 }
