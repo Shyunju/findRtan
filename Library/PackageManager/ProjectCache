@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192196996964912
-    m_Hash: 3219580370
+      ticks: 638192234335885520
+    m_Hash: 2957047871
   m_LockFileStatus:
     m_FilePath: N:/Unity/findRtan/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192196997036644
-    m_Hash: 3591234147
+      ticks: 638192234336143137
+    m_Hash: 3754068285
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -705,28 +705,23 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ads@4.4.2
+    - packageId: com.unity.ads@3.7.5
       testable: 0
       isDirectDependency: 1
-      version: 4.4.2
+      version: 3.7.5
       source: 1
-      resolvedPath: N:\Unity\findRtan\Library\PackageCache\com.unity.ads@4.4.2
+      resolvedPath: N:\Unity\findRtan\Library\PackageCache\com.unity.ads@3.7.5
       assetPath: Packages/com.unity.ads
       name: com.unity.ads
-      displayName: Advertisement Legacy
+      displayName: Advertisement
       author:
         name: 
         email: 
         url: 
       category: 
       type: asset
-      description: "Connect your game to the Unity Ads Network for iOS and Android
-        to quickly and effectively monetize your games.\n\nNOTE: Unity has joined
-        forces with ironSource and recommends using Unity LevelPlay for ad mediation
-        (instead of this package). \n\nThis package will still be supported but no
-        longer updated. To install Unity LevelPlay, use the Ads Mediation package
-        (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported
-        platforms:\n- Android\n- iOS\n"
+      description: Unity Ads is a video ad network for iOS and Android that allows
+        you to quickly and effectively monetize your games.
       status: 4
       errors: []
       versions:
@@ -854,13 +849,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 638161229410000000
-      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
+      datePublishedTicks: 637635162230000000
+      documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/unity-ads-sdk.git
-        revision: 532b2db792ae728eedcc825080876b4e2c5f8544
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
+        revision: 0e92fa56fc4e4cd1fa305e76a911acdae6386b96
         path: 
     - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
@@ -3624,7 +3619,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
@@ -3663,7 +3658,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3689,7 +3684,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: library
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3717,6 +3712,9 @@ m_PackageAssets:
         - 2.0.2
         - 3.0.1
         - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
         compatible:
         - 1.0.0-preview.2
         - 1.0.0-preview.3
@@ -3731,6 +3729,9 @@ m_PackageAssets:
         - 2.0.2
         - 3.0.1
         - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
         verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
@@ -3769,7 +3770,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3793,6 +3794,13 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
+        - 1.7.1
+        - 1.8.1
+        - 1.8.2
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3808,6 +3816,13 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
+        - 1.7.1
+        - 1.8.1
+        - 1.8.2
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3824,7 +3839,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3873,6 +3888,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.4
         - 1.2.5
+        - 1.2.6
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3890,7 +3906,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.4
         - 1.2.5
-        verified: 1.2.5
+        - 1.2.6
+        verified: 1.2.6
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3929,7 +3946,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
@@ -3946,12 +3963,18 @@ m_PackageAssets:
         - 2.0.1
         - 2.0.2
         - 2.1.0
+        - 2.1.1
+        - 2.1.2
         - 3.0.0
         - 3.0.1
         - 4.0.0
         - 4.0.1
         - 4.0.2
         - 4.0.3
+        - 4.0.4
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
@@ -3959,10 +3982,29 @@ m_PackageAssets:
         - 6.0.0-pre.3
         - 6.0.0-pre.4
         - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
         - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
         compatible:
         - 4.0.3
-        verified: 4.0.3
+        - 4.0.4
+        verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3991,7 +4033,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -4017,7 +4059,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
         splines) in EditorWindows and the SceneView."
       status: 4
@@ -4044,6 +4086,7 @@ m_PackageAssets:
         - 5.0.0-pre.2
         - 5.0.0
         - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -4060,7 +4103,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
