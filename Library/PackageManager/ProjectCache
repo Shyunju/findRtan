@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638186336662508733
-    m_Hash: 1407836200
+      ticks: 638192196996964912
+    m_Hash: 3219580370
   m_LockFileStatus:
     m_FilePath: N:/Unity/findRtan/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638186336987231588
-    m_Hash: 1628627717
+      ticks: 638192196997036644
+    m_Hash: 3591234147
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -148,9 +148,11 @@ m_PackageAssets:
         - 9.0.0
         - 9.0.1
         - 9.0.2
+        - 9.0.3
         - 10.0.0-pre.1
         - 10.0.0-pre.2
         - 10.0.0
+        - 10.0.1
         compatible:
         - 5.0.8
         - 5.0.9
@@ -702,6 +704,163 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.ads@4.4.2
+      testable: 0
+      isDirectDependency: 1
+      version: 4.4.2
+      source: 1
+      resolvedPath: N:\Unity\findRtan\Library\PackageCache\com.unity.ads@4.4.2
+      assetPath: Packages/com.unity.ads
+      name: com.unity.ads
+      displayName: Advertisement Legacy
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: asset
+      description: "Connect your game to the Unity Ads Network for iOS and Android
+        to quickly and effectively monetize your games.\n\nNOTE: Unity has joined
+        forces with ironSource and recommends using Unity LevelPlay for ad mediation
+        (instead of this package). \n\nThis package will still be supported but no
+        longer updated. To install Unity LevelPlay, use the Ads Mediation package
+        (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported
+        platforms:\n- Android\n- iOS\n"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        - 3.7.0
+        - 3.7.1
+        - 3.7.3
+        - 3.7.5
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.2.1
+        - 4.3.0
+        - 4.4.1
+        - 4.4.2
+        compatible:
+        - 0.0.3
+        - 0.0.4
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7
+        - 0.0.8
+        - 0.0.10
+        - 0.0.11
+        - 0.0.12
+        - 0.0.13
+        - 0.0.14
+        - 0.0.15
+        - 0.0.16
+        - 2.0.0
+        - 2.0.3
+        - 2.0.4
+        - 2.0.7
+        - 2.0.8
+        - 2.3.1
+        - 2.3.2
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.1
+        - 3.2.0
+        - 3.3.0
+        - 3.3.1
+        - 3.4.0
+        - 3.4.1
+        - 3.4.2
+        - 3.4.4
+        - 3.4.5
+        - 3.4.7
+        - 3.4.9
+        - 3.5.0
+        - 3.5.2
+        - 3.6.1
+        - 3.7.0
+        - 3.7.1
+        - 3.7.3
+        - 3.7.5
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.2.1
+        - 4.3.0
+        - 4.4.1
+        - 4.4.2
+        verified: 3.7.5
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - ads
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638161229410000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/unity-ads-sdk.git
+        revision: 532b2db792ae728eedcc825080876b4e2c5f8544
         path: 
     - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
