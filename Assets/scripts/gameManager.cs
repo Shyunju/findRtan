@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class gameManager : MonoBehaviour
         time += Time.deltaTime;
         timeTxt.text = time.ToString("N2");
 
-        if(time > 30f)
+        if(time > 3f)
         {
             endTxt.SetActive(true);
             Time.timeScale = 0.0f;
@@ -88,5 +89,10 @@ public class gameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         endTxt.SetActive(true);
+    }
+    public void retryGame()
+    {
+        SceneManager.LoadScene("MainScene");
+
     }
 }

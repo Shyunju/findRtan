@@ -48,6 +48,7 @@ public class adsManager : MonoBehaviour
             case ShowResult.Finished:
                 // 광고 보기 보상 기능 
                 Debug.Log("광고 보기를 완료했습니다.");
+                gameManager.I.retryGame();
                 break;
         }
     }
