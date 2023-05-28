@@ -50,7 +50,7 @@ public class gameManager : MonoBehaviour
         time += Time.deltaTime;
         timeTxt.text = time.ToString("N2");
 
-        if(time > 3f)
+        if(time > 60f)
         {
             endTxt.SetActive(true);
             Time.timeScale = 0.0f;
